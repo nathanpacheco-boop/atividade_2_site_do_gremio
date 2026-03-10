@@ -47,6 +47,10 @@ body {
     height: 200px;
 }
 
+.img_noticia:hover {
+    transform:scale(1.08)
+}
+
 footer {
     background-color: rgb(6, 64, 43);
     padding: 10px;
@@ -58,12 +62,13 @@ footer {
 .barra-sticky {
     position: sticky;
     top: 0px;
-    background-color: yellow;
+    background: linear-gradient(90deg, #d1bc00ea, #007A33);
     color: black;
     padding: 12px;
     font-weight: bold;
     text-align: center;
     border-bottom: 4px solid rgb(6, 64, 43);
+    z-index: 10;
 }
 
 .posicao {
@@ -164,4 +169,49 @@ width:300px;
 border-radius:10px;
 font-size:18px;
 }
+
+.info-canto{
+position:fixed;
+bottom:15px;
+right:20px;
+background:#000;
+color:#fff;
+padding:7px 10px;
+border-radius:16px;
+z-index:999;
+height: 50px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:#fff;
+font-size:22px;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+
+.info-canto:hover{
+transform:scale(1.08);
+}
+
+.section_celtics{
+position:relative;
+width:500px;
+height:610px;
+background: linear-gradient(90deg, #00471B, #ffffff);
+border:6px solid #ffffff;
+border-radius:18px;
+margin:auto;
+}
+
+.logo_rodape {
+background: linear-gradient(90deg, #00471B, #ffffff);
+margin:50px auto;
+padding:60px;
+width:300px;
+border-radius:10px;
+font-size:18px;
+
 
